@@ -1,0 +1,39 @@
+{
+  "name": "rikai-excercise-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TyTranDp04/rikai-excercise-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TyTranDp04/rikai-excercise-nodejs/issues"
+  },
+  "homepage": "https://github.com/TyTranDp04/rikai-excercise-nodejs#readme",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^110.0.0",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "soft-delete-plugin-mongoose": "^1.0.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
