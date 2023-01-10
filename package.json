@@ -14,15 +14,15 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TyTranDp04/rikai-excercise-nodejs.git"
+    "url": "git+https://github.com/phuongdevplus/rikai-excercise-nodejs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TyTranDp04/rikai-excercise-nodejs/issues"
+    "url": "https://github.com/phuongdevplus/rikai-excercise-nodejs/issues"
   },
-  "homepage": "https://github.com/TyTranDp04/rikai-excercise-nodejs#readme",
+  "homepage": "https://github.com/phuongdevplus/rikai-excercise-nodejs#readme",
   "dependencies": {
     "axios": "^1.2.2",
     "cors": "^2.8.5",
