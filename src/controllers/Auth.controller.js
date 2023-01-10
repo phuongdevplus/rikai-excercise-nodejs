@@ -38,7 +38,7 @@ export const authController = {
           Email: emailInput,
           Password: req.body.Password,
           Name: req.body.Name,
-          RoleId: 1,
+          RoleId: '1',
           Avatar: '',
         };
         const url = process.env.URL_API+'/authors'

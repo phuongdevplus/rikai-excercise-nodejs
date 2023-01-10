@@ -5,7 +5,6 @@ export const AuthorsController = {
   get(req, res, next) {
     AuthorsSchema.find({})
       .then((data) => {
-        console.log('data',data)
         res.status(200).json({
           statusCode: 200,
           message: "get data user successfully",
